@@ -4,6 +4,6 @@ Heron's Formula, Compound Interest, etc., many things we learn, but overtime it 
 
 And what's more? It's EXTREMELY lightweight! 8.0 KB for a Calculator!
 
-![image](https://github.com/user-attachments/assets/630cf646-eb2c-46b8-8694-02a02342dce7)
+![image](https://github.com/user-attachments/assets/8685f5f9-df86-4567-aa98-1db108ab0efa)
 
 Want to add more Calculation Options? Let's see what comes next!
