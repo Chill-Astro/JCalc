@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class JavaCalc {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("PyCalc : A Simple and Lightweight Calculator. Made in Python!");
+        System.out.println("JavaCalc : A Simple and Lightweight Calculator. Made in Java!");
         System.out.println();
         System.out.println("Select a Mathematical Operation : ");
         System.out.println();
@@ -18,13 +18,11 @@ public class JavaCalc {
         System.out.println("10. Simple Interest");
         System.out.println("11. Compound Interest");
         System.out.println("12. Exit Program");
-
         while(true) {
             System.out.println();
             System.out.print("Enter choice [ 1 - 12 ] : ");
             String ch = sc.next();
             System.out.println();
-
             if (ch.equals("1") || ch.equals("2") || ch.equals("3") || ch.equals("4") || ch.equals("5") || ch.equals("6") || ch.equals("7") || ch.equals("8") || ch.equals("9") || ch.equals("10") || ch.equals("11") || ch.equals("12")) {
                 if (ch.equals("1")) {
                     System.out.print("Enter first number : ");
@@ -32,7 +30,7 @@ public class JavaCalc {
                     System.out.print("Enter second number : ");
                     double y = sc.nextDouble();
                     System.out.println(x + " + " + y + " = " + (x + y));
-
+                    
                 } else if (ch.equals("2")) {
                     System.out.print("Enter first number : ");
                     double x = sc.nextDouble();
@@ -113,8 +111,8 @@ public class JavaCalc {
                     System.out.println("Compound Interest = " + ci);
                     System.out.println("Amount = " + a);
                 } else if (ch.equals("12")) {
-                    System.out.println();
                     System.out.println("Exiting Program....");
+                    System.out.println();
                     System.exit(0);
                 }
 
@@ -128,5 +126,5 @@ public class JavaCalc {
             }
         }
         sc.close();
-    }
-}
+    }//end of main
+}//end of class
